@@ -1,16 +1,53 @@
-# shop_sphere
+# 🛍️ Shop Sphere - Flutter E-Commerce App
 
-A new Flutter project.
+Shop Sphere is a modern and responsive Flutter e-commerce application that provides a smooth shopping experience with clean UI and efficient state management using Provider.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🧩 Product listing with images, price & details  
+- 🛒 Add to cart and remove from cart  
+- 💰 Automatic total price calculation  
+- 🔍 Product details page  
+- ❤️ Favorite products (optional feature)  
+- 🎨 Beautiful UI with custom themes  
+- 📱 Fully responsive design  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧰 Technologies Used
+
+- **Flutter** (Dart)
+- **Provider** for state management
+- **Material Design Components**
+- **Navigator** for page routing
+
+---
+
+## 📸 Screenshots
+
+| Home Page | Product Details | Cart Page |
+|------------|----------------|------------|
+| <img src="screenshots/home.png" width="250"/> | <img src="screenshots/details.png" width="250"/> | <img src="screenshots/cart.png" width="250"/> |
+
+> Add your screenshots inside a `screenshots/` folder in your project and update the paths above.
+
+---
+
+## 🧑‍💻 Installation & Setup
+
+Follow these steps to run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/Nigam22/shop_sphere.git
+
+# Navigate into the folder
+cd shop_sphere
+
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run
